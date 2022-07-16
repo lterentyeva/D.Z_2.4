@@ -53,7 +53,7 @@ class MoneyTransferTest {
     }
 
     @Test
-    void shouldNotTransferOverBalance() {
+    void shouldNotTransferAboveBalance() {
         var dashboardPage = new DashboardPage();
         var moneyTransfer = dashboardPage.secondCardButton();
         String total = "15000";
